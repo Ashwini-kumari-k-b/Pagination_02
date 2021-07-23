@@ -1,0 +1,73 @@
+.pagination {
+  display: inline-block;
+  padding-left: 32%;
+  padding-top: 3%;
+}
+
+.pagination a {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(42, 8, 104);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid rgb(27, 26, 26);
+}
+
+.pagination a:hover:not(.active) {
+  background-color: rgb(192, 190, 189);
+}
+.GFG {
+  font-size: 42px;
+  font-weight: bold;
+  color: #009900;
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
+.peg {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+  table-layout: auto;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+td,
+th {
+  background-color: rgba(130, 224, 41, 0.1);
+  padding: 10px 20px;
+  color: black;
+  margin: 5px 0;
+  transition: 5;
+}
+body {
+  background-color: rgb(220, 220, 241);
+}
+table {
+  width: 80%;
+}
+th {
+  color: rgb(240, 230, 230);
+  background-color: rgb(17, 17, 134);
+}
+
+a {
+  background-color: white;
+}
+th {
+  width: auto;
+}
